@@ -4,7 +4,7 @@ function cormat = nlcc(wlen)
 % by Zhangquan Liao
 % Nov., 2022
 
-load 'E:\研究生工作\2022-8-20 TDAE\github_fast\data_for_NLC.mat' ndata data;
+load 'E:\2022-8-20 TDAE\data_for_NLC.mat' ndata data;
 
 cormat = lcc(ndata,data,wlen);
 temp = abs(cormat);
