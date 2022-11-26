@@ -15,6 +15,6 @@ Formally, the proposed framework can be implemented like a nonlinear geological 
 The implementation of this code is based on python and matlab. 
 There are two things to note when running this code. 
 1. You need to install matlab engine in the corresponding python environment, and then "import matlab" and "import.engine. 
-2. The absolute paths in patching.m and unpatching.m need to be set correctly according to your device.
+2. The absolute paths in "patching.m", "unpatching.m", and "nlcc.m" need to be set correctly according to your device.
 
 It is important that yc_patch.m, yc_patch_inv.m, yc_patch3d.m, and yc_patch3d_inv.m come from "Fast dictionary learning for noise attenuation of multidimensional seismicdata", and introduced in detail in [https://github.com/chenyk1990/reproducible_research](https://github.com/chenyk1990/reproducible_research)
