@@ -1,7 +1,6 @@
 function  patching(parameter)
-%UNTITLED 此处显示有关此函数的摘要
-%   此处显示详细说明
-load 'E:\研究生工作\2022-8-20 TDAE\github_fast\input.mat' ndata;
+
+load 'E:\2022-8-20 TDAE\input.mat' ndata;
 mode = 1;
 
 if length(parameter) == 4
@@ -24,7 +23,7 @@ end
 
 nd_patched = single(nd_patched);
 
-save 'E:\研究生工作\2022-8-20 TDAE\github_fast\input_patched.mat' nd_patched;
+save 'E:\2022-8-20 TDAE\input_patched.mat' nd_patched;
 clear;
 end
 

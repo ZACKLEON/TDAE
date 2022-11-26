@@ -1,8 +1,7 @@
 function  unpatching(parameter)
-%UNTITLED 此处显示有关此函数的摘要
-%   此处显示详细说明
-load 'E:\研究生工作\2022-8-20 TDAE\github_fast\input.mat' ndata;
-load 'E:\研究生工作\2022-8-20 TDAE\github_fast\output_patched.mat' d_patched;
+
+load 'E:\2022-8-20 TDAE\input.mat' ndata;
+load 'E:\2022-8-20 TDAE\output_patched.mat' d_patched;
 mode = 1;
 
 if length(parameter) == 4
@@ -29,7 +28,7 @@ end
 
 data = single(data);
 
-save 'E:\研究生工作\2022-8-20 TDAE\github_fast\output.mat' data;
+save 'E:\2022-8-20 TDAE\output.mat' data;
 clear;
 end
 
