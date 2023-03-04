@@ -1,4 +1,4 @@
-# A Twice Denoising Autoencoder Framework for Random Seismic Noise Attenuation (undergoing review)
+# A Twice Denoising Autoencoder Framework for Random Seismic Noise Attenuation
 by [Zhangquan Liao](https://github.com/ZACKLEON), Yong Li, En xia, Yingtian Liu, Rui Hu
 ## Abstract
 Many seismic denoising algorithms are easily trapped in the dilemma of signal leaking and noise remaining. 
